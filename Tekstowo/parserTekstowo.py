@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-
+#decide on how are we going to store song/urls to scrape
 url = 'https://www.tekstowo.pl/piosenka,kylie_minogue,padam_padam.html'
 
 response = requests.get(url)
