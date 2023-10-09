@@ -33,17 +33,17 @@ polski_rap_2010 = (
 """
 Playlists for Croatian Rap music
 """
-hrvatski_rep = (
-    "https://open.spotify.com/playlist/1KdwxH9DMzSKH1kvfRUA3c?si=9a0b5be6fdec4753"
+this_is_tram_11 = (
+    "https://open.spotify.com/playlist/37i9dQZF1DZ06evO4ecEOC?si=f9f19d3ff1de4475"
 )
-hrvatski_rep_2 = (
-    "https://open.spotify.com/playlist/4hxHB3p91MTbhZTd0A669k?si=95f9c6f4a3584e4a"
+bolesna_braca = (
+    "https://open.spotify.com/playlist/37i9dQZF1E4mRVwtHBO6wH?si=7b8aa1cf887f4841"
 )
-hrvatski_hip_hop_rep = (
-    "https://open.spotify.com/playlist/7G71Fu4tOL7G2kvkkhWRwd?si=52e0158087e74787"
+marin_ivanovic_stoka = (
+    "https://open.spotify.com/playlist/37i9dQZF1E4whjB3IyUubA?si=555d49ce9e644af6"
 )
-hrvatski_rep_i_trep = (
-    "https://open.spotify.com/playlist/6bYPdZPTKLkvrzkGzmxhWu?si=97aa990079bd4159"
+kid_rada = (
+    "https://open.spotify.com/playlist/37i9dQZF1E4xQZ3DjXINt5?si=447a5dfdec2c495d"
 )
 
 
@@ -83,9 +83,9 @@ def save_to_json(directory: str, name: str, content: dict) -> None:
 
 
 # Example usage
-# save_playlist_to_json("hrvatski_rep_i_trep", hrvatski_rep_i_trep)
+# save_playlist_to_json("this_is_tram_11", this_is_tram_11)
 # save_to_json(
 #     directory="songs",
-#     name="hrvatski_rep_i_trep",
-#     content=name_artists_from_playlist("playlists/hrvatski_rep_i_trep_10-06-23.json"),
+#     name="this_is_tram_11",
+#     content=name_artists_from_playlist("playlists/this_is_tram_11_10-08-23.json"),
 # )
