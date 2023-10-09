@@ -5,3 +5,7 @@ This is a project for course ["Data in the Wild"](https://learnit.itu.dk/course/
 - Communication with Spotify API defined in [spotify.py](Spotify/spotify.py)
 - Full responses for selected playlists in [playlists](Spotify/playlists)
 - Song names and artists in [songs](Spotify/songs)
+
+### Tekstowo
+- Run parserTekstowo.py by passing the file name with the songs to scrape, i.e. 
+python3 .\Tekstowo\parserTekstowo.py .\Spotify\songs\polski_hip_hop_klasyki_10-03-23.json
