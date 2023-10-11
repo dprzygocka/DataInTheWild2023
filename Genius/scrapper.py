@@ -3,6 +3,8 @@ import unicodedata
 import sys
 import os
 import requests
+from bs4 import BeautifulSoup
+import re
 
 def replace_items(strings_list, list1, list2):
     results = []
@@ -62,10 +64,9 @@ replacement_chars = ['č','ć','ž','š','đ','Č','Ć','Ž','Đ','Š']
 songs_list = replace_items(songs_list, replacement_chars, normal_chars)
 songs_list = ['https://genius.com/' + item.replace(':', '').capitalize().replace('.', '').replace(' ', '-').replace('?', '').replace('!', '').replace(',', '').replace('\'', '').replace("sc", "").replace("cc", "c").replace("dzz", "dz") + '-lyrics' for item in songs_list]
 
-
-
 songs_list = replace_combining_charon(songs_list)
 
+#a lot of hardcoding stuff
 final_urls = [url.replace('Kid-rada', 'Kid-raa') for url in songs_list]
 final_urls = [url.replace('daku', 'aku') if 'Kid-raa' in url else url for url in final_urls]
 final_urls = [url.replace('Marin-ivanovic-stoka', 'stoka') if 'stoka' in url else url for url in final_urls]
@@ -73,17 +74,41 @@ final_urls = [url.replace('50-g', '50g') if 'Kreso' in url else url for url in f
 final_urls = [url.replace('Tram-11', 'El-bahattee') if 'Tram-11-981' in url else url for url in final_urls]
 final_urls = [url.replace('Ttm', 'Ttm-hrv') if 'Ttm' in url else url for url in final_urls]
 
+#counting failed url requests
+""" 
 count = 0
 
 for url in final_urls:
     try:
         response = requests.get(url)
 
-        if response.status_code == 200:
+        if response.status_code == 404:
             count += 1
             print(url)
 
     except Exception as e:
         print(f"An error occurred: {e}")
 
-print(count) 
+print(count)  """
+
+for url in final_urls:
+    try:
+        response = requests.get(url)
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+            #song name
+            song_name=soup.find('h1')
+            print(song_name.find_all('span')[0].text.strip())
+            
+            #artist name
+            pattern = re.compile(r'HeaderArtistAndTracklistdesktop__\w+')
+            elements = soup.find(class_=pattern)
+            artist_name = elements.find("a").text
+            print(artist_name)
+
+            #lyrics
+            
+
+    except Exception as e:
+        print(f"An error occurred: {e}")
