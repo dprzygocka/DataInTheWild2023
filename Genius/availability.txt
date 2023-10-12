@@ -5,14 +5,13 @@ https://genius.com/stoka-zestoka-lyrics
 https://genius.com/General-woo-glock-lyrics
 https://genius.com/stoka-zg-underground-lyrics
 https://genius.com/General-woo-hrvatski-idol-lyrics
-https://genius.com/Shorty-doi-u-vinkovce-lyrics
 https://genius.com/Nered-bolero-lyrics
 https://genius.com/stoka-pavana-lyrics
 https://genius.com/General-woo-opet-vozimo-lyrics
 https://genius.com/Nered-zzo-lyrics
 
-failed total: 10
-passed: 40
+failed total: 8
+passed: 42
 _________________________________
 **kid_rada_10-08-23.json**
 https://genius.com/stoka-za-grad-koji-imam-rad-lyrics
