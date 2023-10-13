@@ -844,13 +844,6 @@
             ]
         },
         {
-            "name": "SZAŁ",
-            "artist": [
-                "vkie"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Millie Walky",
             "artist": "Bambi",
             "lyrics": [
@@ -999,13 +992,6 @@
                 "Proszę, nie czekaj już, bo noszę w mych plecach nóż",
                 "Nie czekaj na mnie, nie czekaj na mnie, nie mogę cię zawieść znów"
             ]
-        },
-        {
-            "name": "JESTEŚ POJ384NA",
-            "artist": [
-                "Mata"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Samotność",
@@ -1676,6 +1662,10 @@
                 "Talerzy rozbitych jak w Roswell, przyciągania wszystkiego, co złe\r",
                 "Dlatego żałuje, że urosłem"
             ]
+        },
+        {
+            "nr of songs from original file": 50,
+            "nr of songs from in current file": 27
         }
     ]
 }

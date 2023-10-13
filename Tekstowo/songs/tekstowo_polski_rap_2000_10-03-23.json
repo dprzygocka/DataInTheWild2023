@@ -519,13 +519,6 @@
             ]
         },
         {
-            "name": "Brzydki, Zły i Szczery",
-            "artist": [
-                "O.S.T.R."
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Co Cię boli",
             "artist": "Peja",
             "lyrics": [
@@ -1225,13 +1218,6 @@
             ]
         },
         {
-            "name": "Wiele Dróg",
-            "artist": [
-                "POE (Projekt Ostry Emade)"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Ukryty w mieście krzyk",
             "artist": "Pezet",
             "lyrics": [
@@ -1512,13 +1498,6 @@
             ]
         },
         {
-            "name": "Wjaazd!",
-            "artist": [
-                "Ten Typ Mes"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Paznokcie",
             "artist": "Małpa",
             "lyrics": [
@@ -1637,20 +1616,6 @@
                 "Są nowiny z wykopaliska mej skamieliny",
                 "Co za licho? M.A.G.I.K. jest już."
             ]
-        },
-        {
-            "name": "Mówiłaś mi",
-            "artist": [
-                "O.S.T.R."
-            ],
-            "lyrics": ""
-        },
-        {
-            "name": "Peryferie",
-            "artist": [
-                "Kasta"
-            ],
-            "lyrics": ""
         },
         {
             "name": "List",
@@ -2542,13 +2507,6 @@
                 "Dj Brzydal Waco Elo Mario to jest to",
                 "Wszyscy zjednoczeni w rapie, to jest to, łapiesz?"
             ]
-        },
-        {
-            "name": "Tańcz głupia",
-            "artist": [
-                "Sobota"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Pozwol mi nie mowic nic",
@@ -3547,13 +3505,6 @@
             ]
         },
         {
-            "name": "Powiedz na osiedlu",
-            "artist": [
-                "Płomień 81"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "W Wyjątkowych Okolicznościach",
             "artist": "WWO",
             "lyrics": [
@@ -4053,13 +4004,6 @@
             ]
         },
         {
-            "name": "Złap za Broń",
-            "artist": [
-                "Trzeci Wymiar"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Cisza",
             "artist": "DonGuralEsko",
             "lyrics": [
@@ -4293,13 +4237,6 @@
             ]
         },
         {
-            "name": "Przestrzeń",
-            "artist": [
-                "Doniu"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Miej Wątpliwość",
             "artist": "Łona",
             "lyrics": [
@@ -4430,20 +4367,6 @@
                 "\r",
                 "Nie o różach, nie o bratkach x2"
             ]
-        },
-        {
-            "name": "Bezdech",
-            "artist": [
-                "Słoń"
-            ],
-            "lyrics": ""
-        },
-        {
-            "name": "Powrót",
-            "artist": [
-                "Molesta Ewenement"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Wyścig szczurów",
@@ -4907,13 +4830,6 @@
             ]
         },
         {
-            "name": "Chwile ulotne - Remastered Version",
-            "artist": [
-                "Paktofonika"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Z Buta Wjeżdżam",
             "artist": "Sobota",
             "lyrics": [
@@ -5152,6 +5068,10 @@
                 "Stanę przed Tobą o tak od dołu do góry przez Ciebie polepiony \r",
                 "Ja się nie zmienię więc poukładaj mnie a ja zapuszczę w tobie korzenie"
             ]
+        },
+        {
+            "nr of songs from original file": 100,
+            "nr of songs from in current file": 68
         }
     ]
 }

@@ -1101,13 +1101,6 @@
             ]
         },
         {
-            "name": "Peryferie",
-            "artist": [
-                "Kasta"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Chcę ci dać",
             "artist": "DonGuralEsko",
             "lyrics": [
@@ -1841,13 +1834,6 @@
                 "Są twoje - tajne, niejawne jak życie. ",
                 "Tu wszystko dzieje się naprawdę."
             ]
-        },
-        {
-            "name": "Rób Co Chcesz...",
-            "artist": [
-                "Paktofonika"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Normalnie o tej porze",
@@ -2640,13 +2626,6 @@
             ]
         },
         {
-            "name": "Tańcz głupia",
-            "artist": [
-                "Sobota"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Konfrontacje",
             "artist": "Pięć Dwa Dębiec",
             "lyrics": [
@@ -3072,13 +3051,6 @@
             ]
         },
         {
-            "name": "Nie mamy skrzydeł",
-            "artist": [
-                "Miuosh"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Za wszystko",
             "artist": "Paluch",
             "lyrics": [
@@ -3479,13 +3451,6 @@
                 "W loży od do dno tworzy,\r",
                 "Jeden na sto pozostanie zamulony. x4"
             ]
-        },
-        {
-            "name": "Gruby czarny kot przebiegł nam drogę, a ch** mu w du**, nawet 13 w piątek",
-            "artist": [
-                "Kaliber 44"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Fejm",
@@ -4042,13 +4007,6 @@
             ]
         },
         {
-            "name": "Nie Odejdę Stąd",
-            "artist": [
-                "POE (Projekt Ostry Emade)"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Nie ma czasu pomyśleć",
             "artist": "Grammatik",
             "lyrics": [
@@ -4225,6 +4183,10 @@
                 "Nie chcę kraść, nie chcę bić, nie chcę zabijać by żyć.",
                 "Wychowani w Polsce, tacy sami jak ty."
             ]
+        },
+        {
+            "nr of songs from original file": 70,
+            "nr of songs from in current file": 52
         }
     ]
 }

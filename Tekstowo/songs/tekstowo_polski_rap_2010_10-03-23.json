@@ -648,13 +648,6 @@
             ]
         },
         {
-            "name": "Miniówa",
-            "artist": [
-                "Kukon"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Następna stacja",
             "artist": "Taco Hemingway",
             "lyrics": [
@@ -1110,48 +1103,51 @@
             "name": "Zmiany",
             "artist": "Hades",
             "lyrics": [
-                "Rano spadł deszcz ",
-                "Jutro ma spaść śnieg",
-                "Lato zleciało mi jak jeden długi dzień",
-                "Dziecko się rodzi kiedy starzec odchodzi",
-                "Taki bieg zdarzeń, nic z tym nie zrobisz",
-                "To ma sens bracie",
-                "Chcesz więcej ziaren to jedno zasiej",
-                "Na niebie gwiazd pełno ",
-                "Jak chcesz to jedno złapiesz",
-                "Ja czuję wewnątrz że coś się stanie",
-                "Mam złe przeczucia ale skupiam na czym innym uwagę",
-                "Słyszę ruchy planet, przyciągają się nawzajem",
-                "W niebo się gapię, łażę sam po Warszawie",
-                "Nawet ona jest inna odkąd nie jestem dzieciakiem",
-                "Zmieniamy świat, on nas zmienia w fotografie",
-                "Ktoś łapie kadr, ja na drugim planie",
-                "To przez przypadek na cudzych zdjęciach wychodzę naturalnie",
-                "Wszystko jest zmienne przez grawitację ",
+                "Rano spadł deszcz \r",
+                "Jutro ma spaść śnieg\r",
+                "Lato zleciało mi jak jeden długi dzień\r",
+                "Dziecko się rodzi kiedy starzec odchodzi\r",
+                "Taki bieg zdarzeń, nic z tym nie zrobisz\r",
+                "To ma sens bracie\r",
+                "Chcesz więcej ziaren to jedno zasiej\r",
+                "Na niebie gwiazd pełno \r",
+                "Jak chcesz to jedno złapiesz\r",
+                "Ja czuję wewnątrz że coś się stanie\r",
+                "Mam złe przeczucia ale skupiam na czym innym uwagę\r",
+                "Słyszę ruchy planet, przyciągają się nawzajem\r",
+                "W niebo się gapię, łażę sam po Warszawie\r",
+                "Nawet ona jest inna odkąd nie jestem dzieciakiem\r",
+                "Zmieniamy świat, on nas zmienia w fotografie\r",
+                "Ktoś łapie kadr, ja na drugim planie\r",
+                "To przez przypadek na cudzych zdjęciach wychodzę naturalnie\r",
+                "Wszystko jest zmienne przez grawitację \r",
                 "To co uniesie się w powietrze kiedyś spadnie",
-                "Każda zmiana zaczyna się od środka",
-                "Każda zmiana zaczyna się od nas",
-                "Wszystko wraca, ale zmienia swój rozmiar",
+                "\r",
+                "Każda zmiana zaczyna się od środka\r",
+                "Każda zmiana zaczyna się od nas\r",
+                "Wszystko wraca, ale zmienia swój rozmiar\r",
                 "Tak jak wylana łza, która zamieni się w wodospad",
-                "Wczoraj spadł śnieg, dziś jest go mniej",
-                "Dawno nie wychodziłem z domu przed snem",
-                "Znowu jestem zmęczony, prowadzi mnie cień",
-                "Ciężkie oczy, mimo że dopiero przyszedł zmierzch",
-                "Widzę jak stres opada z kurzem",
-                "Podnoszę dłoń, trzymam ją dłużej, czuję to na skórze",
-                "Nie rozumiałem ale już rozumiem",
-                "Kosmos zmienia się latami, za to człowiek w sekundę",
-                "W moim mieście jest brudne powietrze",
-                "Odpalam papierosa zupełnie niepotrzebnie",
-                "Wypuszczam z dymem myśli obojętnie ",
-                "Idzie wiatr z miast, znowu robi się wietrznie",
-                "Nie tęsknię za tym co było, myślę co będzie ",
-                "Zmienne determinują moje podejście ",
-                "Ostatecznie wszystko upadnie jak kręgle ",
+                "\r",
+                "Wczoraj spadł śnieg, dziś jest go mniej\r",
+                "Dawno nie wychodziłem z domu przed snem\r",
+                "Znowu jestem zmęczony, prowadzi mnie cień\r",
+                "Ciężkie oczy, mimo że dopiero przyszedł zmierzch\r",
+                "Widzę jak stres opada z kurzem\r",
+                "Podnoszę dłoń, trzymam ją dłużej, czuję to na skórze\r",
+                "Nie rozumiałem ale już rozumiem\r",
+                "Kosmos zmienia się latami, za to człowiek w sekundę\r",
+                "W moim mieście jest brudne powietrze\r",
+                "Odpalam papierosa zupełnie niepotrzebnie\r",
+                "Wypuszczam z dymem myśli obojętnie \r",
+                "Idzie wiatr z miast, znowu robi się wietrznie\r",
+                "Nie tęsknię za tym co było, myślę co będzie \r",
+                "Zmienne determinują moje podejście \r",
+                "Ostatecznie wszystko upadnie jak kręgle \r",
                 "Niech żyje król bo ma nowego następcę",
-                "Każda zmiana zaczyna się od środka",
-                "Każda zmiana zaczyna się od nas",
-                "Wszystko wraca, ale zmienia swój rozmiar",
+                "\r",
+                "Każda zmiana zaczyna się od środka\r",
+                "Każda zmiana zaczyna się od nas\r",
+                "Wszystko wraca, ale zmienia swój rozmiar\r",
                 "Tak jak wylana łza, która zamieni się w wodospad"
             ]
         },
@@ -1637,13 +1633,6 @@
                 "Chwilę przy tobie to peeling, zmywają stres.",
                 "Chwilę przy tobie to peeling, zmywają stres﻿."
             ]
-        },
-        {
-            "name": "W trzy dupy",
-            "artist": [
-                "Polskie karate"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Piąta Strona Świata",
@@ -2196,20 +2185,6 @@
             ]
         },
         {
-            "name": "Magenta (prod. Auer)",
-            "artist": [
-                "Pezet"
-            ],
-            "lyrics": ""
-        },
-        {
-            "name": "@ (trailer)",
-            "artist": [
-                "chillwagon"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "VHS",
             "artist": "PRO8L3M",
             "lyrics": [
@@ -2742,13 +2717,6 @@
             ]
         },
         {
-            "name": "Nie / nie",
-            "artist": [
-                "Otsochodzi"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Cola",
             "artist": "PlanBe",
             "lyrics": [
@@ -2864,13 +2832,6 @@
                 "Na niej z połowę mych grzechów i żalów ",
                 "AMEN"
             ]
-        },
-        {
-            "name": "LECI NOWY FUTURE",
-            "artist": [
-                "Taco Hemingway"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Koszmar minionego lata",
@@ -3249,13 +3210,6 @@
             ]
         },
         {
-            "name": "Casablanca",
-            "artist": [
-                "Blacha 2115"
-            ],
-            "lyrics": ""
-        },
-        {
             "name": "Po francusku",
             "artist": "Pablo Novacci",
             "lyrics": [
@@ -3569,13 +3523,6 @@
                 "A więc dalej mówcie o mnie Rockstar (yeah, yeah)",
                 "Chcę na zawsze czuć się tu jak Rockstar"
             ]
-        },
-        {
-            "name": "Whoop?",
-            "artist": [
-                "Oki"
-            ],
-            "lyrics": ""
         },
         {
             "name": "Tiramisu",
@@ -4379,6 +4326,10 @@
                 "Więc jeśli chcesz, to chodź pomożesz,\r",
                 "Możesz odnaleźć tu siebie w sobie,"
             ]
+        },
+        {
+            "nr of songs from original file": 100,
+            "nr of songs from in current file": 64
         }
     ]
 }
