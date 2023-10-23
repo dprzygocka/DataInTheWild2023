@@ -47,22 +47,20 @@ kid_rada = (
 )
 
 
-def save_playlist_to_json(name: str, url: str) -> None:
+def playlist(url: str) -> dict:
     """
-    Saves a playlist from a spotify url to a json file
+    Returns a playlist dictionary given a spotify url
     """
-    results = spotify.playlist_items(url)
-    date = datetime.datetime.now().strftime("%m-%d-%y")
-    with open(f"playlists/{name}_{date}.json", "w") as f:
-        json.dump(results, f, indent=4)
+    playlist = spotify.playlist_items(url)
+    return playlist
 
 
-def name_artists_from_playlist(path_to_playlist_json: str) -> dict:
+def songs_and_artists(path: str) -> dict:
     """
     Returns a dictionary with song names and artists from a playlist json file
     """
     name_artists = []
-    with open(path_to_playlist_json) as f:
+    with open(path) as f:
         results = json.load(f)
     songs = results["items"]
     for song in songs:
@@ -70,22 +68,28 @@ def name_artists_from_playlist(path_to_playlist_json: str) -> dict:
         name = song["track"]["name"]
         print(f"{name} - {artists}")
         name_artists.append({"name": name, "artists": artists})
-    return {"items": name_artists}
+    songs_and_artists = {"items": name_artists}
+    return songs_and_artists
 
 
-def save_to_json(directory: str, name: str, content: dict) -> None:
+def save_to_json(name: str, content: dict, directory: str) -> str:
     """
     Saves dictionary to a json file at given directory
     """
-    date = datetime.datetime.now().strftime("%m-%d-%y")
-    with open(f"{directory}/{name}_{date}.json", "w") as f:
+    date = datetime.datetime.now().strftime("%d-%m-%y")
+    path = f"{directory}/{name}_{date}.json"
+    with open(path, "w") as f:
         json.dump(content, f, indent=4)
+    return path
+
+
+def save_playlist_and_songs(name: str, url: str) -> None:
+    """
+    Saves playlist and songs from a given url to json files
+    """
+    path_to_playlists = save_to_json(name, playlist(url), "playlists")
+    save_to_json(name, songs_and_artists(path_to_playlists), "songs")
 
 
 # Example usage
-# save_playlist_to_json("this_is_tram_11", this_is_tram_11)
-# save_to_json(
-#     directory="songs",
-#     name="this_is_tram_11",
-#     content=name_artists_from_playlist("playlists/this_is_tram_11_10-08-23.json"),
-# )
+# save_playlist_and_songs("polski_rap_2010", polski_rap_2010)
