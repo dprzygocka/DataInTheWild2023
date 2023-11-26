@@ -63,21 +63,21 @@ def playlist_name(url: str) -> str:
     return playlist["name"].strip().lower().replace(" ", "_")
 
 
-def playlist_songs(path: str) -> dict:
+def playlist_songs(url: str) -> dict:
     """
     Returns a dictionary with song names and artists from a playlist json file
     """
-    name_artists = []
-    with open(path) as f:
-        results = json.load(f)
-    songs = results["items"]
-    for song in songs:
-        artists = [artist["name"] for artist in song["track"]["artists"]]
-        name = song["track"]["name"]
-        print(f"{name} - {artists}")
-        name_artists.append({"name": name, "artists": artists})
-    songs_and_artists = {"items": name_artists}
-    return songs_and_artists
+    songs = spotify.playlist_items(url)
+    name_artists = [
+        {
+            "name": song["track"]["name"],
+            "artists": [artist["name"] for artist in song["track"]["artists"]],
+        }
+        for song in songs["items"]
+    ]
+    for line in name_artists:
+        print(line)
+    return {"items": name_artists}
 
 
 def save_to_json(name: str, content: dict, directory: str) -> str:
@@ -99,20 +99,6 @@ def save_playlist(url: str) -> str:
         name=playlist_name(url), content=playlist(url), directory="playlists"
     )
     return path
-
-
-def save_playlist_and_songs(url: str) -> None:
-    """
-    Saves playlist and songs from a given url to json files
-    """
-    path_to_playlists = save_to_json(
-        name=playlist_name(url), content=playlist(url), directory="playlists"
-    )
-    save_to_json(
-        name=playlist_name(url),
-        content=playlist_songs(path_to_playlists),
-        directory="songs",
-    )
 
 
 def albums(artist_id: str) -> dict:
@@ -144,4 +130,4 @@ def album_songs(album_id: str) -> dict:
     return {"items": name_artists}
 
 
-print(album_songs("7nr4cCYdcrW9fLVB5ct5or"))
+# print(album_songs("7nr4cCYdcrW9fLVB5ct5or"))
