@@ -1,6 +1,6 @@
+import os
 import json
 import spotipy
-import datetime
 from spotipy.oauth2 import SpotifyClientCredentials
 from credentials import CLIENT_ID, CLIENT_SECRET
 
@@ -57,7 +57,7 @@ def playlist(url: str) -> dict:
 
 def playlist_name(url: str) -> str:
     """
-    Returns playlist name given a spotify url
+    Returns formatted playlist name given a spotify url
     """
     playlist = spotify.playlist(url)
     return playlist["name"].strip().lower().replace(" ", "_")
@@ -84,8 +84,12 @@ def save_to_json(name: str, content: dict, directory: str) -> str:
     """
     Saves dictionary to a json file at given directory
     """
-    date = datetime.datetime.now().strftime("%d-%m-%y")
-    path = f"{directory}/{name}_{date}.json"
+    name = name.strip().lower().replace(" ", "_")
+
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    path = f"{directory}/{name}.json"
     with open(path, "w") as f:
         json.dump(content, f, indent=4)
     return path
@@ -101,19 +105,23 @@ def save_playlist(url: str) -> str:
     return path
 
 
-def albums(artist_id: str) -> dict:
+def artist_albums(artist_id: str) -> dict:
     """
     Returns a dictionary with album name and album id from a given artist id
     """
     albums = spotify.artist_albums(artist_id)
     return [
-        {"name": album["name"], "id": album["id"]}
+        {
+            "name": album["name"],
+            "id": album["id"],
+            "release_date": album["release_date"],
+        }
         for album in albums["items"]
         if album["album_type"] == "album"
     ]
 
 
-def album_songs(album_id: str) -> dict:
+def album_songs(album_id: str) -> list[dict]:
     """
     Returns a dictionary with song name and song id from a given album id
     """
@@ -127,7 +135,29 @@ def album_songs(album_id: str) -> dict:
     ]
     for line in name_artists:
         print(line)
-    return {"items": name_artists}
+    return name_artists
 
 
-# print(album_songs("7nr4cCYdcrW9fLVB5ct5or"))
+def artist_name(artist_id: str) -> str:
+    """
+    Returns formatted artist name from a given artist id
+    """
+    artist = spotify.artist(artist_id)
+    return artist["name"].strip().lower().replace(" ", "_").capitalize()
+
+
+def save_artist_albums(artist_id: str) -> None:
+    """
+    Saves all albums from a given artist id to json files
+    """
+    albums = artist_albums(artist_id)
+    for album in albums:
+        print(album["name"])
+        save_to_json(
+            name=f'{album["name"]}_{album["release_date"]}',
+            content={"items": album_songs(album["id"])},
+            directory=f"albums/{artist_name(artist_id)}",
+        )
+
+
+# save_artist_albums("5Kuxl5ZenCl9fYzmtin6ot")
