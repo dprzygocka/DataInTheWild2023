@@ -63,7 +63,7 @@ def playlist_name(url: str) -> str:
     return playlist["name"].strip().lower().replace(" ", "_")
 
 
-def songs_and_artists(path: str) -> dict:
+def playlist_songs(path: str) -> dict:
     """
     Returns a dictionary with song names and artists from a playlist json file
     """
@@ -91,6 +91,16 @@ def save_to_json(name: str, content: dict, directory: str) -> str:
     return path
 
 
+def save_playlist(url: str) -> str:
+    """
+    Saves playlist from a given url to json files
+    """
+    path = save_to_json(
+        name=playlist_name(url), content=playlist(url), directory="playlists"
+    )
+    return path
+
+
 def save_playlist_and_songs(url: str) -> None:
     """
     Saves playlist and songs from a given url to json files
@@ -100,7 +110,7 @@ def save_playlist_and_songs(url: str) -> None:
     )
     save_to_json(
         name=playlist_name(url),
-        content=songs_and_artists(path_to_playlists),
+        content=playlist_songs(path_to_playlists),
         directory="songs",
     )
 
@@ -115,3 +125,23 @@ def albums(artist_id: str) -> dict:
         for album in albums["items"]
         if album["album_type"] == "album"
     ]
+
+
+def album_songs(album_id: str) -> dict:
+    """
+    Returns a dictionary with song name and song id from a given album id
+    """
+    songs = spotify.album_tracks(album_id)
+    name_artists = [
+        {
+            "name": song["name"],
+            "artists": [artist["name"] for artist in song["artists"]],
+        }
+        for song in songs["items"]
+    ]
+    for line in name_artists:
+        print(line)
+    return {"items": name_artists}
+
+
+print(album_songs("7nr4cCYdcrW9fLVB5ct5or"))
