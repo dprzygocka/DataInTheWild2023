@@ -55,6 +55,14 @@ def playlist(url: str) -> dict:
     return playlist
 
 
+def playlist_name(url: str) -> str:
+    """
+    Returns playlist name given a spotify url
+    """
+    playlist = spotify.playlist(url)
+    return playlist["name"].strip().lower().replace(" ", "_")
+
+
 def songs_and_artists(path: str) -> dict:
     """
     Returns a dictionary with song names and artists from a playlist json file
@@ -83,12 +91,18 @@ def save_to_json(name: str, content: dict, directory: str) -> str:
     return path
 
 
-def save_playlist_and_songs(name: str, url: str) -> None:
+def save_playlist_and_songs(url: str) -> None:
     """
     Saves playlist and songs from a given url to json files
     """
-    path_to_playlists = save_to_json(name, playlist(url), "playlists")
-    save_to_json(name, songs_and_artists(path_to_playlists), "songs")
+    path_to_playlists = save_to_json(
+        name=playlist_name(url), content=playlist(url), directory="playlists"
+    )
+    save_to_json(
+        name=playlist_name(url),
+        content=songs_and_artists(path_to_playlists),
+        directory="songs",
+    )
 
 
 def albums(artist_id: str) -> dict:
@@ -101,10 +115,3 @@ def albums(artist_id: str) -> dict:
         for album in albums["items"]
         if album["album_type"] == "album"
     ]
-
-
-print(albums("5Kuxl5ZenCl9fYzmtin6ot"))
-
-
-# Example usage
-# save_playlist_and_songs("polski_rap_2010", polski_rap_2010)
