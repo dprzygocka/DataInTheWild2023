@@ -91,5 +91,20 @@ def save_playlist_and_songs(name: str, url: str) -> None:
     save_to_json(name, songs_and_artists(path_to_playlists), "songs")
 
 
+def albums(artist_id: str) -> dict:
+    """
+    Returns a dictionary with album name and album id from a given artist id
+    """
+    albums = spotify.artist_albums(artist_id)
+    return [
+        {"name": album["name"], "id": album["id"]}
+        for album in albums["items"]
+        if album["album_type"] == "album"
+    ]
+
+
+print(albums("5Kuxl5ZenCl9fYzmtin6ot"))
+
+
 # Example usage
 # save_playlist_and_songs("polski_rap_2010", polski_rap_2010)
