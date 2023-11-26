@@ -47,6 +47,17 @@ kid_rada = (
 )
 
 
+"""
+Polish Rappers
+"""
+sokol = "5Kuxl5ZenCl9fYzmtin6ot"
+pezet = "4z93wkjfGntA0XFqnv4wj7"
+peja = "5IQZA1dxUd3Qv73mHNln59"
+ostr = "52XMlxvCIzmiNkzSqEw3Uv"
+kaz_balagane = "2GzZAv52VCMdVli7QzkteT"
+zdechly_osa = "509dS4Q0EfUQuG7KvaSsiz"
+
+
 def playlist(url: str) -> dict:
     """
     Returns a playlist dictionary given a spotify url
@@ -156,8 +167,8 @@ def save_artist_albums(artist_id: str) -> None:
         save_to_json(
             name=f'{album["name"]}_{album["release_date"]}',
             content={"items": album_songs(album["id"])},
-            directory=f"albums/{artist_name(artist_id)}",
+            directory=f"artists/{artist_name(artist_id)}",
         )
 
 
-# save_artist_albums("5Kuxl5ZenCl9fYzmtin6ot")
+save_artist_albums(zdechly_osa)
