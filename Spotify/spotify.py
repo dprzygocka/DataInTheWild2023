@@ -46,6 +46,13 @@ kid_rada = (
     "https://open.spotify.com/playlist/37i9dQZF1E4xQZ3DjXINt5?si=447a5dfdec2c495d"
 )
 
+"""
+English playlists
+"""
+eng_2022_2023 = "https://open.spotify.com/playlist/6Xg9PqHNTq5mK7uVX78MGP"
+eng_2010s = "https://open.spotify.com/playlist/3nxl2MWz2QwvcfpX3Hti01"
+eng_2000s = "https://open.spotify.com/playlist/1qh9QxZDnJxk2RmCg3kUXe"
+
 
 """
 Polish Rappers
@@ -76,7 +83,7 @@ def playlist_name(url: str) -> str:
 
 def playlist_songs(url: str) -> dict:
     """
-    Returns a dictionary with song names and artists from a playlist json file
+    Returns a dictionary with song names and artists from a playlist url
     """
     songs = spotify.playlist_items(url)
     name_artists = [
@@ -171,4 +178,9 @@ def save_artist_albums(artist_id: str) -> None:
         )
 
 
-save_artist_albums(zdechly_osa)
+# save_artist_albums(zdechly_osa)
+save_to_json(
+    name=playlist_name(eng_2022_2023),
+    content=playlist_songs(eng_2022_2023),
+    directory="songs",
+)

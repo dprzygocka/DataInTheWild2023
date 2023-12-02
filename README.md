@@ -7,5 +7,7 @@ This is a project for course ["Data in the Wild"](https://learnit.itu.dk/course/
 - Song names and artists in [songs](Spotify/songs)
 
 ### Tekstowo
-- Run parserTekstowo.py by passing the file name with the songs to scrape, i.e. 
+- Run parserTekstowo.py by passing the file name with the songs to scrape, i.e.   
+```bash
 python3 .\Tekstowo\parserTekstowo.py .\Spotify\songs\polski_hip_hop_klasyki_10-03-23.json
+```
