@@ -33,6 +33,12 @@ def words(song: dict) -> list[str]:
     return words
 
 
+def remove_stopwords(words: list) -> list:
+    with open("polish.stopwords.txt", "r") as f:
+        stopwords = f.read().splitlines()
+        return [w for w in words if w not in stopwords]
+
+
 def counter(words: list) -> dict[str, int]:
     """
     Returns word count dictionary
@@ -67,7 +73,7 @@ def playlist_counter(path) -> dict[str, int]:
         word_count = {}
         data = read_file(path)
         for i, song in enumerate(data):
-            w = words(song)
+            w = remove_stopwords(words(song))
             c = counter(w)
             word_count = add_counters(word_count, c)
             print(f"{i+1: < 5}total words: {len(w)},  unique words: {len(c)}")
