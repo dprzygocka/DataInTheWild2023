@@ -1,0 +1,298 @@
+{
+    "item": [
+        {
+            "name": "Astronaut in the Ocean",
+            "artist": "Masked Wolf",
+            "model result": "{'neg': 0.085, 'neu': 0.714, 'pos': 0.201, 'compound': 0.9926}",
+            "rating": "positive"
+        },
+        {
+            "name": "Heat Waves",
+            "artist": "Glass Animals",
+            "model result": "{'neg': 0.078, 'neu': 0.819, 'pos': 0.103, 'compound': 0.8752}",
+            "rating": "positive"
+        },
+        {
+            "name": "Let Me Love You",
+            "artist": "DJ Snake",
+            "model result": "{'neg': 0.082, 'neu': 0.715, 'pos': 0.203, 'compound': 0.9956}",
+            "rating": "positive"
+        },
+        {
+            "name": "Shape of You",
+            "artist": "Ed Sheeran",
+            "model result": "{'neg': 0.014, 'neu': 0.751, 'pos': 0.235, 'compound': 0.9996}",
+            "rating": "positive"
+        },
+        {
+            "name": "Closer",
+            "artist": "The Chainsmokers",
+            "model result": "{'neg': 0.063, 'neu': 0.814, 'pos': 0.123, 'compound': 0.9806}",
+            "rating": "positive"
+        },
+        {
+            "name": "Life Goes On",
+            "artist": "Oliver Tree",
+            "model result": "{'neg': 0.053, 'neu': 0.598, 'pos': 0.349, 'compound': 0.999}",
+            "rating": "positive"
+        },
+        {
+            "name": "​abcdefu",
+            "artist": "GAYLE",
+            "model result": "{'neg': 0.177, 'neu': 0.729, 'pos': 0.094, 'compound': -0.99}",
+            "rating": "negative"
+        },
+        {
+            "name": "Unstoppable",
+            "artist": "Sia",
+            "model result": "{'neg': 0.168, 'neu': 0.599, 'pos': 0.234, 'compound': 0.9907}",
+            "rating": "positive"
+        },
+        {
+            "name": "The Nights",
+            "artist": "Avicii",
+            "model result": "{'neg': 0.04, 'neu': 0.896, 'pos': 0.064, 'compound': 0.9147}",
+            "rating": "positive"
+        },
+        {
+            "name": "Levitating",
+            "artist": "Dua Lipa",
+            "model result": "{'neg': 0.032, 'neu': 0.728, 'pos': 0.239, 'compound': 0.9989}",
+            "rating": "positive"
+        },
+        {
+            "name": "Cradles",
+            "artist": "Sub Urban",
+            "model result": "{'neg': 0.124, 'neu': 0.698, 'pos': 0.179, 'compound': 0.96}",
+            "rating": "positive"
+        },
+        {
+            "name": "Arcade",
+            "artist": "Duncan Laurence",
+            "model result": "{'neg': 0.102, 'neu': 0.734, 'pos': 0.164, 'compound': 0.9538}",
+            "rating": "positive"
+        },
+        {
+            "name": "On My Way",
+            "artist": "Alan Walker, Sabrina Carpenter & Farruko",
+            "model result": "{'neg': 0.111, 'neu': 0.772, 'pos': 0.117, 'compound': 0.6985}",
+            "rating": "positive"
+        },
+        {
+            "name": "No Lie",
+            "artist": "Sean Paul",
+            "model result": "{'neg': 0.084, 'neu': 0.792, 'pos': 0.124, 'compound': 0.9793}",
+            "rating": "positive"
+        },
+        {
+            "name": "One Dance",
+            "artist": "Drake",
+            "model result": "{'neg': 0.031, 'neu': 0.815, 'pos': 0.154, 'compound': 0.9971}",
+            "rating": "positive"
+        },
+        {
+            "name": "Old Town Road",
+            "artist": "Lil Nas X",
+            "model result": "{'neg': 0.016, 'neu': 0.917, 'pos': 0.067, 'compound': 0.7936}",
+            "rating": "positive"
+        },
+        {
+            "name": "Love Yourself",
+            "artist": "Justin Bieber",
+            "model result": "{'neg': 0.094, 'neu': 0.729, 'pos': 0.176, 'compound': 0.9954}",
+            "rating": "positive"
+        },
+        {
+            "name": "No Roots",
+            "artist": "Alice Merton",
+            "model result": "{'neg': 0.167, 'neu': 0.758, 'pos': 0.075, 'compound': -0.9906}",
+            "rating": "negative"
+        },
+        {
+            "name": "I Like Me Better",
+            "artist": "Lauv",
+            "model result": "{'neg': 0.037, 'neu': 0.641, 'pos': 0.322, 'compound': 0.9988}",
+            "rating": "positive"
+        },
+        {
+            "name": "Memories",
+            "artist": "Maroon 5",
+            "model result": "{'neg': 0.098, 'neu': 0.738, 'pos': 0.164, 'compound': 0.9833}",
+            "rating": "positive"
+        },
+        {
+            "name": "Skechers",
+            "artist": "DripReport",
+            "model result": "{'neg': 0.111, 'neu': 0.71, 'pos': 0.18, 'compound': 0.9438}",
+            "rating": "positive"
+        },
+        {
+            "name": "Hope",
+            "artist": "XXXTENTACION",
+            "model result": "{'neg': 0.198, 'neu': 0.624, 'pos': 0.178, 'compound': -0.7939}",
+            "rating": "negative"
+        },
+        {
+            "name": "Bones",
+            "artist": "Imagine Dragons",
+            "model result": "{'neg': 0.043, 'neu': 0.837, 'pos': 0.12, 'compound': 0.9752}",
+            "rating": "positive"
+        },
+        {
+            "name": "​changes",
+            "artist": "XXXTENTACION",
+            "model result": "{'neg': 0.124, 'neu': 0.779, 'pos': 0.096, 'compound': -0.0387}",
+            "rating": "neutral "
+        },
+        {
+            "name": "Look At Me!",
+            "artist": "XXXTENTACION",
+            "model result": "{'neg': 0.277, 'neu': 0.637, 'pos': 0.086, 'compound': -0.9982}",
+            "rating": "negative"
+        },
+        {
+            "name": "Bad Boy",
+            "artist": "Marwa Loud",
+            "model result": "{'neg': 0.327, 'neu': 0.673, 'pos': 0.0, 'compound': -0.9997}",
+            "rating": "negative"
+        },
+        {
+            "name": "Miss You",
+            "artist": "Oliver Tree & Robin Schulz",
+            "model result": "{'neg': 0.125, 'neu': 0.751, 'pos': 0.124, 'compound': -0.0938}",
+            "rating": "negative"
+        },
+        {
+            "name": "Night Changes",
+            "artist": "One Direction",
+            "model result": "{'neg': 0.084, 'neu': 0.877, 'pos': 0.038, 'compound': -0.9305}",
+            "rating": "negative"
+        },
+        {
+            "name": "Story of My Life",
+            "artist": "One Direction",
+            "model result": "{'neg': 0.059, 'neu': 0.815, 'pos': 0.126, 'compound': 0.9881}",
+            "rating": "positive"
+        },
+        {
+            "name": "Love Your Voice",
+            "artist": "JONY",
+            "model result": "{'neg': 0.0, 'neu': 0.67, 'pos': 0.33, 'compound': 0.998}",
+            "rating": "positive"
+        },
+        {
+            "name": "Under the Influence",
+            "artist": "Chris Brown",
+            "model result": "{'neg': 0.039, 'neu': 0.753, 'pos': 0.209, 'compound': 0.9945}",
+            "rating": "positive"
+        },
+        {
+            "name": "Bloody Mary",
+            "artist": "Lady Gaga",
+            "model result": "{'neg': 0.065, 'neu': 0.793, 'pos': 0.142, 'compound': 0.9713}",
+            "rating": "positive"
+        },
+        {
+            "name": "World's Smallest Violin",
+            "artist": "AJR",
+            "model result": "{'neg': 0.16, 'neu': 0.658, 'pos': 0.183, 'compound': 0.8538}",
+            "rating": "positive"
+        },
+        {
+            "name": "As It Was",
+            "artist": "Harry Styles",
+            "model result": "{'neg': 0.015, 'neu': 0.933, 'pos': 0.052, 'compound': 0.7976}",
+            "rating": "positive"
+        },
+        {
+            "name": "Fearless",
+            "artist": "Lost Sky",
+            "model result": "{'neg': 0.0, 'neu': 0.0, 'pos': 0.0, 'compound': 0.0}",
+            "rating": "neutral "
+        },
+        {
+            "name": "High Enough",
+            "artist": "K.Flay",
+            "model result": "{'neg': 0.085, 'neu': 0.745, 'pos': 0.17, 'compound': 0.9879}",
+            "rating": "positive"
+        },
+        {
+            "name": "SugarCrash!",
+            "artist": "ElyOtto",
+            "model result": "{'neg': 0.15, 'neu': 0.717, 'pos': 0.133, 'compound': -0.7144}",
+            "rating": "negative"
+        },
+        {
+            "name": "Mockingbird",
+            "artist": "Eminem",
+            "model result": "{'neg': 0.093, 'neu': 0.794, 'pos': 0.113, 'compound': 0.981}",
+            "rating": "positive"
+        },
+        {
+            "name": "Gaichite",
+            "artist": "Misha Xramovi",
+            "model result": "{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",
+            "rating": "neutral "
+        },
+        {
+            "name": "SNAP",
+            "artist": "Rosa Linn",
+            "model result": "{'neg': 0.031, 'neu': 0.776, 'pos': 0.193, 'compound': 0.9945}",
+            "rating": "positive"
+        },
+        {
+            "name": "Dandelions",
+            "artist": "Ruth B.",
+            "model result": "{'neg': 0.012, 'neu': 0.72, 'pos': 0.268, 'compound': 0.9989}",
+            "rating": "positive"
+        },
+        {
+            "name": "Mary on a Cross",
+            "artist": "Ghost",
+            "model result": "{'neg': 0.058, 'neu': 0.771, 'pos': 0.171, 'compound': 0.9871}",
+            "rating": "positive"
+        },
+        {
+            "name": "Makeba",
+            "artist": "Jain",
+            "model result": "{'neg': 0.012, 'neu': 0.973, 'pos': 0.015, 'compound': 0.3736}",
+            "rating": "positive"
+        },
+        {
+            "name": "Better When I'm Dancin'",
+            "artist": "Meghan Trainor",
+            "model result": "{'neg': 0.029, 'neu': 0.681, 'pos': 0.29, 'compound': 0.9986}",
+            "rating": "positive"
+        },
+        {
+            "name": "Let Me Down Slowly",
+            "artist": "Alec Benjamin",
+            "model result": "{'neg': 0.0, 'neu': 0.674, 'pos': 0.326, 'compound': 0.9994}",
+            "rating": "positive"
+        },
+        {
+            "name": "Džanum",
+            "artist": "Teya Dora",
+            "model result": "{'neg': 0.086, 'neu': 0.796, 'pos': 0.117, 'compound': 0.9001}",
+            "rating": "positive"
+        },
+        {
+            "name": "Gangsta's Paradise",
+            "artist": "Coolio",
+            "model result": "{'neg': 0.0, 'neu': 0.982, 'pos': 0.018, 'compound': 0.3804}",
+            "rating": "positive"
+        },
+        {
+            "name": "Way Down We Go",
+            "artist": "KALEO",
+            "model result": "{'neg': 0.091, 'neu': 0.751, 'pos': 0.158, 'compound': 0.9937}",
+            "rating": "positive"
+        },
+        {
+            "name": "Counting Stars",
+            "artist": "OneRepublic",
+            "model result": "{'neg': 0.0, 'neu': 0.912, 'pos': 0.088, 'compound': 0.9659}",
+            "rating": "positive"
+        }
+    ]
+}

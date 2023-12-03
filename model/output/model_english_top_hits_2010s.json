@@ -1,0 +1,442 @@
+{
+    "item": [
+        {
+            "name": "Die Young",
+            "artist": "Kesha",
+            "model result": "{'neg': 0.171, 'neu': 0.699, 'pos': 0.131, 'compound': -0.9795}",
+            "rating": "negative"
+        },
+        {
+            "name": "The Monster",
+            "artist": "Eminem",
+            "model result": "{'neg': 0.1, 'neu': 0.769, 'pos': 0.132, 'compound': 0.9853}",
+            "rating": "positive"
+        },
+        {
+            "name": "Wake Up",
+            "artist": "The Vamps",
+            "model result": "{'neg': 0.112, 'neu': 0.648, 'pos': 0.24, 'compound': 0.9912}",
+            "rating": "positive"
+        },
+        {
+            "name": "Best Song Ever",
+            "artist": "One Direction",
+            "model result": "{'neg': 0.012, 'neu': 0.676, 'pos': 0.312, 'compound': 0.9996}",
+            "rating": "positive"
+        },
+        {
+            "name": "Firework",
+            "artist": "Katy Perry",
+            "model result": "{'neg': 0.052, 'neu': 0.818, 'pos': 0.13, 'compound': 0.9874}",
+            "rating": "positive"
+        },
+        {
+            "name": "Break Free",
+            "artist": "Ariana Grande",
+            "model result": "{'neg': 0.067, 'neu': 0.76, 'pos': 0.173, 'compound': 0.9836}",
+            "rating": "positive"
+        },
+        {
+            "name": "California Gurls",
+            "artist": "Katy Perry",
+            "model result": "{'neg': 0.046, 'neu': 0.789, 'pos': 0.165, 'compound': 0.9964}",
+            "rating": "positive"
+        },
+        {
+            "name": "Hot N Cold",
+            "artist": "Katy Perry",
+            "model result": "{'neg': 0.151, 'neu': 0.71, 'pos': 0.139, 'compound': -0.3561}",
+            "rating": "negative"
+        },
+        {
+            "name": "Umbrella",
+            "artist": "Rihanna",
+            "model result": "{'neg': 0.028, 'neu': 0.889, 'pos': 0.083, 'compound': 0.9871}",
+            "rating": "positive"
+        },
+        {
+            "name": "Live Your Life",
+            "artist": "T.I.",
+            "model result": "{'neg': 0.06, 'neu': 0.871, 'pos': 0.07, 'compound': 0.7465}",
+            "rating": "positive"
+        },
+        {
+            "name": "Disturbia",
+            "artist": "Rihanna",
+            "model result": "{'neg': 0.056, 'neu': 0.832, 'pos': 0.112, 'compound': 0.9869}",
+            "rating": "positive"
+        },
+        {
+            "name": "Pump It",
+            "artist": "Black Eyed Peas",
+            "model result": "{'neg': 0.115, 'neu': 0.795, 'pos': 0.09, 'compound': -0.9542}",
+            "rating": "negative"
+        },
+        {
+            "name": "Hey Ya!",
+            "artist": "OutKast",
+            "model result": "{'neg': 0.078, 'neu': 0.805, 'pos': 0.118, 'compound': 0.9778}",
+            "rating": "positive"
+        },
+        {
+            "name": "Blurred Lines",
+            "artist": "Robin Thicke",
+            "model result": "{'neg': 0.102, 'neu': 0.735, 'pos': 0.163, 'compound': 0.9856}",
+            "rating": "positive"
+        },
+        {
+            "name": "Say My Name",
+            "artist": "Destiny's Child",
+            "model result": "{'neg': 0.035, 'neu': 0.665, 'pos': 0.3, 'compound': 0.9999}",
+            "rating": "positive"
+        },
+        {
+            "name": "Complicated",
+            "artist": "Avril Lavigne",
+            "model result": "{'neg': 0.129, 'neu': 0.7, 'pos': 0.171, 'compound': 0.9688}",
+            "rating": "positive"
+        },
+        {
+            "name": "Applause",
+            "artist": "Lady Gaga",
+            "model result": "{'neg': 0.033, 'neu': 0.784, 'pos': 0.183, 'compound': 0.9976}",
+            "rating": "positive"
+        },
+        {
+            "name": "The Edge of Glory",
+            "artist": "Lady Gaga",
+            "model result": "{'neg': 0.03, 'neu': 0.766, 'pos': 0.204, 'compound': 0.9982}",
+            "rating": "positive"
+        },
+        {
+            "name": "Glad You Came",
+            "artist": "The Wanted",
+            "model result": "{'neg': 0.011, 'neu': 0.815, 'pos': 0.174, 'compound': 0.9956}",
+            "rating": "positive"
+        },
+        {
+            "name": "Insomnia",
+            "artist": "Daya",
+            "model result": "{'neg': 0.056, 'neu': 0.823, 'pos': 0.121, 'compound': 0.9771}",
+            "rating": "positive"
+        },
+        {
+            "name": "The Middle",
+            "artist": "Zedd, Maren Morris & Grey",
+            "model result": "{'neg': 0.098, 'neu': 0.881, 'pos': 0.021, 'compound': -0.9733}",
+            "rating": "negative"
+        },
+        {
+            "name": "TiK ToK",
+            "artist": "Kesha",
+            "model result": "{'neg': 0.055, 'neu': 0.772, 'pos': 0.174, 'compound': 0.9959}",
+            "rating": "positive"
+        },
+        {
+            "name": "Counting Stars",
+            "artist": "OneRepublic",
+            "model result": "{'neg': 0.087, 'neu': 0.863, 'pos': 0.05, 'compound': -0.9475}",
+            "rating": "negative"
+        },
+        {
+            "name": "Locked Out of Heaven",
+            "artist": "Bruno Mars",
+            "model result": "{'neg': 0.004, 'neu': 0.551, 'pos': 0.446, 'compound': 0.9996}",
+            "rating": "positive"
+        },
+        {
+            "name": "Diamonds",
+            "artist": "Rihanna",
+            "model result": "{'neg': 0.004, 'neu': 0.449, 'pos': 0.548, 'compound': 0.9998}",
+            "rating": "positive"
+        },
+        {
+            "name": "Dark Horse",
+            "artist": "Katy Perry",
+            "model result": "{'neg': 0.083, 'neu': 0.604, 'pos': 0.314, 'compound': 0.9994}",
+            "rating": "positive"
+        },
+        {
+            "name": "Wildest Dreams",
+            "artist": "Taylor Swift",
+            "model result": "{'neg': 0.072, 'neu': 0.715, 'pos': 0.212, 'compound': 0.9964}",
+            "rating": "positive"
+        },
+        {
+            "name": "Story of My Life",
+            "artist": "One Direction",
+            "model result": "{'neg': 0.059, 'neu': 0.815, 'pos': 0.126, 'compound': 0.9881}",
+            "rating": "positive"
+        },
+        {
+            "name": "Back to December",
+            "artist": "Taylor Swift",
+            "model result": "{'neg': 0.045, 'neu': 0.799, 'pos': 0.156, 'compound': 0.9962}",
+            "rating": "positive"
+        },
+        {
+            "name": "22",
+            "artist": "Taylor Swift",
+            "model result": "{'neg': 0.075, 'neu': 0.661, 'pos': 0.264, 'compound': 0.998}",
+            "rating": "positive"
+        },
+        {
+            "name": "Bad Blood",
+            "artist": "Taylor Swift",
+            "model result": "{'neg': 0.203, 'neu': 0.7, 'pos': 0.098, 'compound': -0.9967}",
+            "rating": "negative"
+        },
+        {
+            "name": "Amnesia",
+            "artist": "5 Seconds of Summer",
+            "model result": "{'neg': 0.096, 'neu': 0.774, 'pos': 0.13, 'compound': 0.9645}",
+            "rating": "positive"
+        },
+        {
+            "name": "When I Was Your Man",
+            "artist": "Bruno Mars",
+            "model result": "{'neg': 0.086, 'neu': 0.709, 'pos': 0.204, 'compound': 0.993}",
+            "rating": "positive"
+        },
+        {
+            "name": "Stressed Out",
+            "artist": "​twenty one pilots",
+            "model result": "{'neg': 0.068, 'neu': 0.733, 'pos': 0.199, 'compound': 0.9981}",
+            "rating": "positive"
+        },
+        {
+            "name": "Chasing the Sun",
+            "artist": "The Wanted",
+            "model result": "{'neg': 0.0, 'neu': 0.897, 'pos': 0.103, 'compound': 0.9902}",
+            "rating": "positive"
+        },
+        {
+            "name": "All Time Low",
+            "artist": "The Wanted",
+            "model result": "{'neg': 0.177, 'neu': 0.719, 'pos': 0.104, 'compound': -0.9634}",
+            "rating": "negative"
+        },
+        {
+            "name": "We Own the Night",
+            "artist": "The Wanted",
+            "model result": "{'neg': 0.043, 'neu': 0.821, 'pos': 0.136, 'compound': 0.9856}",
+            "rating": "positive"
+        },
+        {
+            "name": "Sugar",
+            "artist": "Maroon 5",
+            "model result": "{'neg': 0.065, 'neu': 0.645, 'pos': 0.29, 'compound': 0.999}",
+            "rating": "positive"
+        },
+        {
+            "name": "Personal",
+            "artist": "The Vamps",
+            "model result": "{'neg': 0.194, 'neu': 0.632, 'pos': 0.174, 'compound': -0.9793}",
+            "rating": "negative"
+        },
+        {
+            "name": "Somebody to You",
+            "artist": "The Vamps",
+            "model result": "{'neg': 0.058, 'neu': 0.687, 'pos': 0.254, 'compound': 0.9988}",
+            "rating": "positive"
+        },
+        {
+            "name": "Wild Heart",
+            "artist": "The Vamps",
+            "model result": "{'neg': 0.003, 'neu': 0.647, 'pos': 0.35, 'compound': 0.9995}",
+            "rating": "positive"
+        },
+        {
+            "name": "What Makes You Beautiful",
+            "artist": "One Direction",
+            "model result": "{'neg': 0.108, 'neu': 0.772, 'pos': 0.12, 'compound': -0.5776}",
+            "rating": "negative"
+        },
+        {
+            "name": "Live While We're Young",
+            "artist": "One Direction",
+            "model result": "{'neg': 0.084, 'neu': 0.808, 'pos': 0.109, 'compound': 0.9491}",
+            "rating": "positive"
+        },
+        {
+            "name": "Rise",
+            "artist": "Jonas Blue",
+            "model result": "{'neg': 0.104, 'neu': 0.771, 'pos': 0.125, 'compound': 0.5015}",
+            "rating": "positive"
+        },
+        {
+            "name": "This Is What You Came For",
+            "artist": "Calvin Harris",
+            "model result": "{'neg': 0.061, 'neu': 0.893, 'pos': 0.046, 'compound': -0.4497}",
+            "rating": "negative"
+        },
+        {
+            "name": "All Time Low",
+            "artist": "Jon Bellion",
+            "model result": "{'neg': 0.712, 'neu': 0.261, 'pos': 0.027, 'compound': -0.9999}",
+            "rating": "negative"
+        },
+        {
+            "name": "Human",
+            "artist": "Rag'n'Bone Man",
+            "model result": "{'neg': 0.088, 'neu': 0.763, 'pos': 0.15, 'compound': 0.9686}",
+            "rating": "positive"
+        },
+        {
+            "name": "Lost Boy",
+            "artist": "Ruth B.",
+            "model result": "{'neg': 0.116, 'neu': 0.702, 'pos': 0.183, 'compound': 0.9892}",
+            "rating": "positive"
+        },
+        {
+            "name": "Stop and Stare",
+            "artist": "OneRepublic",
+            "model result": "{'neg': 0.037, 'neu': 0.781, 'pos': 0.183, 'compound': 0.9891}",
+            "rating": "positive"
+        },
+        {
+            "name": "If I Lose Myself",
+            "artist": "OneRepublic",
+            "model result": "{'neg': 0.118, 'neu': 0.795, 'pos': 0.087, 'compound': -0.8731}",
+            "rating": "negative"
+        },
+        {
+            "name": "Won't Go Home Without You",
+            "artist": "Maroon 5",
+            "model result": "{'neg': 0.105, 'neu': 0.818, 'pos': 0.077, 'compound': -0.7579}",
+            "rating": "negative"
+        },
+        {
+            "name": "Happier",
+            "artist": "Ed Sheeran",
+            "model result": "{'neg': 0.144, 'neu': 0.704, 'pos': 0.152, 'compound': -0.7933}",
+            "rating": "negative"
+        },
+        {
+            "name": "Galway Girl",
+            "artist": "Ed Sheeran",
+            "model result": "{'neg': 0.089, 'neu': 0.863, 'pos': 0.048, 'compound': -0.9485}",
+            "rating": "negative"
+        },
+        {
+            "name": "The Only Exception",
+            "artist": "Paramore",
+            "model result": "{'neg': 0.052, 'neu': 0.663, 'pos': 0.285, 'compound': 0.9977}",
+            "rating": "positive"
+        },
+        {
+            "name": "Closer",
+            "artist": "The Chainsmokers",
+            "model result": "{'neg': 0.004, 'neu': 0.779, 'pos': 0.216, 'compound': 0.9991}",
+            "rating": "positive"
+        },
+        {
+            "name": "Older",
+            "artist": "Sasha Alex Sloan",
+            "model result": "{'neg': 0.085, 'neu': 0.823, 'pos': 0.091, 'compound': 0.5833}",
+            "rating": "positive"
+        },
+        {
+            "name": "No Money",
+            "artist": "Galantis",
+            "model result": "{'neg': 0.063, 'neu': 0.814, 'pos': 0.123, 'compound': 0.9806}",
+            "rating": "positive"
+        },
+        {
+            "name": "Wake Me Up",
+            "artist": "Avicii",
+            "model result": "{'neg': 0.111, 'neu': 0.682, 'pos': 0.207, 'compound': 0.9919}",
+            "rating": "positive"
+        },
+        {
+            "name": "Somebody That I Used to Know",
+            "artist": "Gotye",
+            "model result": "{'neg': 0.05, 'neu': 0.913, 'pos': 0.037, 'compound': -0.3049}",
+            "rating": "negative"
+        },
+        {
+            "name": "Orange Trees",
+            "artist": "MARINA",
+            "model result": "{'neg': 0.075, 'neu': 0.778, 'pos': 0.148, 'compound': 0.9712}",
+            "rating": "positive"
+        },
+        {
+            "name": "Replay",
+            "artist": "Iyaz",
+            "model result": "{'neg': 0.068, 'neu': 0.767, 'pos': 0.165, 'compound': 0.992}",
+            "rating": "positive"
+        },
+        {
+            "name": "Classic",
+            "artist": "MKTO",
+            "model result": "{'neg': 0.005, 'neu': 0.852, 'pos': 0.143, 'compound': 0.9893}",
+            "rating": "positive"
+        },
+        {
+            "name": "The One That Got Away",
+            "artist": "Katy Perry",
+            "model result": "{'neg': 0.048, 'neu': 0.783, 'pos': 0.169, 'compound': 0.997}",
+            "rating": "positive"
+        },
+        {
+            "name": "Stay",
+            "artist": "Rihanna",
+            "model result": "{'neg': 0.035, 'neu': 0.751, 'pos': 0.214, 'compound': 0.9982}",
+            "rating": "positive"
+        },
+        {
+            "name": "All Time High",
+            "artist": "The Sam Willows",
+            "model result": "{'neg': 0.041, 'neu': 0.929, 'pos': 0.03, 'compound': -0.1655}",
+            "rating": "negative"
+        },
+        {
+            "name": "Counting Stars",
+            "artist": "OneRepublic",
+            "model result": "{'neg': 0.035, 'neu': 0.91, 'pos': 0.056, 'compound': 0.4316}",
+            "rating": "positive"
+        },
+        {
+            "name": "SOS",
+            "artist": "Avicii",
+            "model result": "{'neg': 0.031, 'neu': 0.911, 'pos': 0.058, 'compound': 0.8248}",
+            "rating": "positive"
+        },
+        {
+            "name": "Waiting For Love",
+            "artist": "Avicii",
+            "model result": "{'neg': 0.087, 'neu': 0.863, 'pos': 0.05, 'compound': -0.9475}",
+            "rating": "negative"
+        },
+        {
+            "name": "Who Do You Love",
+            "artist": "The Chainsmokers & 5 Seconds of Summer",
+            "model result": "{'neg': 0.014, 'neu': 0.779, 'pos': 0.207, 'compound': 0.9954}",
+            "rating": "positive"
+        },
+        {
+            "name": "Stay Awake",
+            "artist": "Dean Lewis",
+            "model result": "{'neg': 0.106, 'neu': 0.628, 'pos': 0.266, 'compound': 0.9937}",
+            "rating": "positive"
+        },
+        {
+            "name": "REMEDY",
+            "artist": "Alesso",
+            "model result": "{'neg': 0.027, 'neu': 0.648, 'pos': 0.325, 'compound': 0.9997}",
+            "rating": "positive"
+        },
+        {
+            "name": "Fireflies",
+            "artist": "Owl City",
+            "model result": "{'neg': 0.048, 'neu': 0.905, 'pos': 0.047, 'compound': -0.1103}",
+            "rating": "negative"
+        },
+        {
+            "name": "Feel It Still",
+            "artist": "Portugal. The Man",
+            "model result": "{'neg': 0.068, 'neu': 0.822, 'pos': 0.11, 'compound': 0.8649}",
+            "rating": "positive"
+        }
+    ]
+}

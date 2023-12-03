@@ -96,7 +96,6 @@ final_urls = [url.replace('Ttm', 'Ttm-hrv') if 'Ttm' in url else url for url in 
 final_urls = [url.replace('Marin-ivanovic-stoka', 'Stoka') if 'stoka' in url else url for url in final_urls] # 1
 final_urls = [url.replace('Shorty-dodi-', 'Shorty-hr-doi-') if 'Shorty' in url else url for url in final_urls] # 2
 
-print(final_urls)
 
 soup_list = []
 title_list = []
@@ -123,13 +122,9 @@ for url in final_urls:
 
         lyrics_parts = []
         for div in lyrics_divs:
-
             part_lyrics = div.get_text(separator='\n', strip=True)
 
-
             lyrics_parts.append(part_lyrics)
-
-
         lyrics = "\n\n".join(lyrics_parts)
 
         lyrics_list.append(lyrics)
@@ -179,10 +174,12 @@ for lyric in lyrics_lines_list:
 
     cleaned_lyrics_list.append(temp_lyric)
 lyrics_lines_list = cleaned_lyrics_list
+#join the lyrics together
+lyrics_string_list_string_form = ['\n'.join(lyrics).replace('\n', ' ') for lyrics in lyrics_lines_list] 
 
 items = []
 
-for artist, song, lyrics in zip(artists, songs, lyrics_lines_list):
+for artist, song, lyrics in zip(artists, songs, lyrics_string_list_string_form):
     item = {
         "name": song,
         "artist": artist,
@@ -193,8 +190,8 @@ for artist, song, lyrics in zip(artists, songs, lyrics_lines_list):
 data = {
     "item": items
 }
-
-with open('songs1.json', 'w', encoding='utf-8') as file:
+filename = json_file_path.split('/')[3].split('.')[0]
+with open(f'{filename}.json', 'w', encoding='utf-8') as file:
     json.dump(data, file, ensure_ascii=False, indent=4)
 
 print(f'This garbage has found {len(songs_list) - (http_error + connection_error + timeout_error + request_exception_error)} out of {len(songs_list)} urls') 
