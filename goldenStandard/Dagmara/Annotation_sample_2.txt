@@ -1653,7 +1653,7 @@ I'm better off alone anyway
 Item 29:
 Name: Gaichite
 Artist: Misha Xramovi
-mood: remove NOT ENG
+mood: REMOVE NOT ENG
 Lyrics:
 ნუ მეთამაშები ნარკო ნარკოტიკით
 ტაკო ტაკო დადე დილით გაშკა ჩემი არის ტკბილი

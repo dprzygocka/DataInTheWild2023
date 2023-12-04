@@ -109,7 +109,7 @@ Would you lie with me and just forget the world?
 Item 3:
 Name: Waiting For Love
 Artist: Avicii
-mood: neutral REMOVE
+mood: REMOVE
 Lyrics:
 Lately, I've been, I've been losin' sleep
 Dreamin' about the things that we could be
@@ -186,7 +186,7 @@ Sink in the river, the lessons I've learned
 Item 4:
 Name: Wake Me Up
 Artist: Avicii
-mood: neutral REMOVE
+mood: REMOVE
 Lyrics:
 I used to shut my door while my mother screamed in the kitchen
 I'd turn the music up, get high and try not to listen
@@ -227,7 +227,7 @@ The older I get
 Item 5:
 Name: If I Lose Myself
 Artist: OneRepublic
-mood: negative REMOVE
+mood: REMOVE
 Lyrics:
 This town is colder now, I think it's sick of us
 It's time to make our move, I'm shaking off the rust
@@ -270,7 +270,7 @@ Oh, do you see what I see?
 Item 6:
 Name: Somebody That I Used to Know
 Artist: Gotye
-mood: negative  REMOVE
+mood: REMOVE
 Lyrics:
 Sorry, I ain't got no money
 I'm not trying to be funny
@@ -1583,7 +1583,7 @@ Hey ya! Hey ya!
 Item 26:
 Name: Feel It Still
 Artist: Portugal. The Man
-mood: negative REMOVE
+mood: REMOVE
 Lyrics:
 O-o-o-o-o-oh
 O-o-o-o-o-oh
@@ -1903,7 +1903,7 @@ And Lost Boys like me are free
 Item 31:
 Name: Gangsta's Paradise
 Artist: Coolio
-mood: negative REMOVE
+mood: REMOVE
 Lyrics:
 Niko neće džanum
 Ni za živu glavu
