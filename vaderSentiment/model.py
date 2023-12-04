@@ -46,5 +46,5 @@ data = {
 }
 
 filename = json_file_path.split('/')[3].split('.')[0]
-with open(f'./model/output/model_{filename}.json', 'w', encoding='utf-8') as file:
+with open(f'./vaderSentiment/output/model_{filename}.json', 'w', encoding='utf-8') as file:
     json.dump(data, file, ensure_ascii=False, indent=4)
