@@ -8,7 +8,7 @@
 ]
 },
 
-mood: positive
+mood: energetic, uplifting, positive
 
 2.
 
@@ -19,7 +19,7 @@ mood: positive
 ]
 }
 
-mood: negative
+mood: sad, negative
 
 15.
 
@@ -30,7 +30,7 @@ mood: negative
 ]
 },
 
-mood: negative
+mood: good, uplifting, positive
 
 16.
 
@@ -41,7 +41,7 @@ mood: negative
 ]
 },
 
-mood: negative
+mood: nostalgic, neutral
 
 17.
 
@@ -52,7 +52,7 @@ mood: negative
 ]
 },
 
-mood: neutral
+mood: party, carefree, positive
 
 18.
 
@@ -63,7 +63,7 @@ mood: neutral
 ]
 },
 
-mood: positive
+mood: emotional, hopeful, positive
 
 19.
 
@@ -74,7 +74,7 @@ mood: positive
 ]
 },
 
-mood: negative
+mood: emotional, sad, negative
 
 20.
 
@@ -85,7 +85,7 @@ mood: negative
 ]
 },
 
-mood: neutral
+mood: playful, energetic, positive
 
 1. 
 
@@ -98,7 +98,7 @@ mood: neutral
 ]
 },
 
-mood: positive
+mood: sexy, provocative, playful, positive
 
 22.
 
@@ -109,7 +109,7 @@ mood: positive
 ]
 },
 
-mood: negative
+mood: fear, disturbed, negative
 
 23.
 
@@ -121,7 +121,7 @@ mood: negative
 ]
 },
 
-mood: neutral
+mood: uplifting, positive
 
 24.
 
@@ -132,7 +132,7 @@ mood: neutral
 ]
 },
 
-mood: negative
+mood: chill, romantic, neutral
 
 25.
 
@@ -143,7 +143,7 @@ mood: negative
 ]
 },
 
-mood: positive
+mood: summer, playful, uplifting
 
 26.
 
@@ -155,7 +155,7 @@ mood: positive
 ]
 },
 
-mood: negative
+mood: emotional, sad, negative
 
 27.
 
@@ -166,4 +166,4 @@ mood: negative
 ]
 },
 
-mood: neutral
+mood: calm, romantic, sad 
