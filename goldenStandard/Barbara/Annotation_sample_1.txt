@@ -1,7 +1,7 @@
 Item 1:
+Mood: Agressive, negative
 Name: Look At Me!
 Artist: XXXTENTACION
-mood: neutral
 Lyrics:
 Ayy, I'm like, "Bitch, who is your mans?", ayy
 Can't keep my dick in my pants, ayy
@@ -58,9 +58,9 @@ Look at me, fuck on me
 Look at me, yah
 
 Item 2:
+Mood: Dramatic, neutral
 Name: Chasing Cars
 Artist: Snow Patrol
-mood: negative
 Lyrics:
 We'll do it all
 Everything
@@ -106,10 +106,53 @@ If I lay here
 If I just lay here
 Would you lie with me and just forget the world?
 
+Item 5:
+Mood: Negative
+Name: If I Lose Myself
+Artist: OneRepublic
+Lyrics:
+This town is colder now, I think it's sick of us
+It's time to make our move, I'm shaking off the rust
+I've got my heart set on anywhere but here
+I'm staring down myself, counting up the years
+Steady hands just take the wheel
+And every glance is killing me
+Time to make one last appeal for the life I lead
+Stop and stare
+I think I'm moving, but I go nowhere
+Yeah, I know that everyone gets scared
+But I've become what I can't be, oh
+Stop and stare
+You start to wonder why you're here not there
+And you'd give anything to get what's fair
+But fair ain't what you really need
+Oh, can you see what I see?
+They're trying to come back, all my senses push
+Untie the weight bags, I never thought I could
+Steady feet, don't fail me now
+I'm gonna run 'til you can't walk
+Something pulls my focus out
+And I'm standing down
+
+Stop and stare
+I think I'm moving, but I go nowhere
+Yeah, I know that everyone gets scared
+But I've become what I can't be, oh
+Stop and stare
+You start to wonder why you're here not there
+And you'd give anything to get what's fair
+But fair ain't what you really need
+Oh, you don't need
+Stop and stare
+I think I'm moving, but I go nowhere
+Yeah, I know that everyone gets scared
+I've become what I can't be
+Oh, do you see what I see?
+
 Item 7:
+Mood: Neutral
 Name: Clocks
 Artist: Coldplay
-mood: negative
 Lyrics:
 The lights go out, and I can't be saved
 Tides that I tried to swim against
@@ -154,9 +197,9 @@ Home
 home, where I wanted to go
 
 Item 8:
+Mood: Neutral
 Name: Bones
 Artist: Imagine Dragons
-mood: negative
 Lyrics:
 Gimme, gimme, gimme some time to think
 I'm in the bathroom, looking at me
@@ -211,9 +254,9 @@ There goes my mind (There it goes)
 'Cause there's magic in my bones
 
 Item 9:
+Mood: Positive
 Name: One Dance
 Artist: Drake
-mood: neutral
 Lyrics:
 Baby, I like your style
 Grips on your waist, front way, back way
@@ -313,9 +356,9 @@ It's definitely not showing up
 I know "Hennessy" has two "S"es for sure, so I'm gonna take out one of the "N"s
 
 Item 10:
+Mood: Negative
 Name: I Will Remember You
 Artist: Ryan Cabrera
-mood: negative
 Lyrics:
 Four years later
 Time goes by fast
@@ -362,9 +405,9 @@ We're not together
 I will remember you
 
 Item 11:
+Mood: Neutral
 Name: Say My Name
 Artist: Destiny's Child
-mood: negative
 Lyrics:
 Darkchild '99
 [Chorus: Beyoncé,
@@ -571,9 +614,9 @@ Better say my name
 Thou shalt know she can't love you
 
 Item 12:
+Mood: Positive
 Name: Hot N Cold
 Artist: Katy Perry
-mood: neutral
 Lyrics:
 You change your mind
 Like a girl changes clothes
@@ -652,9 +695,9 @@ You're in, then you're out
 You're up, then you're down
 
 Item 13:
+Mood: Negative
 Name: Realize
 Artist: Colbie Caillat
-mood: neutral
 Lyrics:
 Take time to realize
 That your warmth is crashing down on in
@@ -707,9 +750,9 @@ Realize
 Realize (Oh-oh)
 
 Item 14:
+Mood: Positive
 Name: Keep Holding On
 Artist: Avril Lavigne
-mood: positive
 Lyrics:
 You're not alone
 Together, we stand
@@ -770,9 +813,9 @@ So keep (Keep) holding on
 'Cause you know we'll make it through, we'll make it through
 
 Item 15:
+Mood: Negative
 Name: All You Wanted
 Artist: Michelle Branch
-mood: neutral
 Lyrics:
 I wanted to be like you
 I wanted everything
@@ -825,9 +868,9 @@ So I can finally see
 Where you go when you're gone
 
 Item 17:
+Mood: Negative
 Name: We Belong Together
 Artist: Mariah Carey
-mood: negative
 Lyrics:
 Sweet love, yeah
 I didn't mean it when I said I didn't love you so
@@ -891,9 +934,9 @@ Oh, baby, baby, we belong together
 We belong together
 
 Item 19:
+Mood: Negative
 Name: Fallin' for You
 Artist: Colbie Caillat
-mood: neutral
 Lyrics:
 I don't know but I think I may be fallin' for you
 Droppin' so quickly
@@ -963,9 +1006,9 @@ Oh, oh, no, no
 Oh, oh, I'm fallin' for you
 
 Item 20:
+Mood: Positive
 Name: Shape of You
 Artist: Ed Sheeran
-mood: positive
 Lyrics:
 A club isn't the best place to find a lover
 So the bar is where I go (Mm)
@@ -1063,9 +1106,9 @@ Every day, discoverin' somethin' brand new
 I'm in love with the shape of you
 
 Item 21:
+Mood: Negative
 Name: Mr. Brightside
 Artist: The Killers
-mood: negative
 Lyrics:
 Comin' out of my cage and I been doin' just fine
 Gotta, gotta be down because I want it all
@@ -1117,9 +1160,9 @@ I never
 I never
 
 Item 22:
+Mood: Neutral
 Name: Old Town Road
 Artist: Lil Nas X
-mood: neutral
 Lyrics:
 Yeah, I'm gonna take my horse to the old town road
 I'm gonna ride 'til I can't no more
@@ -1160,9 +1203,9 @@ I'm gonna ride 'til I can't no more
 I got the hor-
 
 Item 23:
+Mood: Negative
 Name: Hope
 Artist: XXXTENTACION
-mood: negative
 Lyrics:
 Yeah
 Rest in peace to all the kids that lost their lives in the Parkland shooting, this song is dedicated to you
@@ -1188,9 +1231,9 @@ So what's up? What you say? Feelin' good, I'm feelin' great
 Tired of the fuckin' hate, stackin' cheese all on my plate
 
 Item 25:
+Mood: Positive
 Name: Hey Ya!
 Artist: OutKast
-mood: neutral
 Lyrics:
 One, two, three, uh!
 My baby don't mess around
@@ -1258,9 +1301,9 @@ Hey ya! (Uh-oh) Hey ya! (Uh-oh)
 Hey ya! Hey ya!
 
 Item 27:
+Mood: Positive
 Name: Story of My Life
 Artist: One Direction
-mood: negative
 Lyrics:
 [Verse 1: Harry &
 Liam
@@ -1366,6 +1409,7 @@ The story of my life (The story of, the story of)
 The story of my life
 
 Item 28:
+Mood: Neutral
 Name: You and Me
 Artist: Lifehouse
 Lyrics:
@@ -1402,9 +1446,9 @@ What day is it? And in what month?
 This clock never seemed so alive
 
 Item 29:
+Mood: Neutral
 Name: Back to December
 Artist: Taylor Swift
-mood: negative
 Lyrics:
 I'm so glad you made time to see me
 How's life? Tell me, how's your family?
@@ -1460,9 +1504,9 @@ I go back to December all the time
 All the time
 
 Item 30:
+Mood: Negative
 Name: Lost Boy
 Artist: Ruth B.
-mood: neutral
 Lyrics:
 There was a time when I was alone
 Nowhere to go and no place to call home
@@ -1522,9 +1566,9 @@ Neverland is home to Lost Boys like me
 And Lost Boys like me are free
 
 Item 32:
+Mood: Positive
 Name: I'm Like a Bird
 Artist: Nelly Furtado
-mood: neutral
 Lyrics:
 You're beautiful, that's for sure
 You'll never ever fade
@@ -1595,9 +1639,9 @@ I don't know where my soul is (Soul is)
 I don't know where my home is
 
 Item 33:
+Mood: Negative
 Name: Where is the Love?
 Artist: Black Eyed Peas
-mood: neutral
 Lyrics:
 What's wrong with the world, Mama?
 People livin' like they ain't got no mamas
@@ -1714,9 +1758,9 @@ That's all we got
 (One world, one world)
 
 Item 34:
+Mood: Neutral
 Name: High Enough
 Artist: K.Flay
-mood: positive
 Lyrics:
 (Oh, oh)
 (Oh, oh)
@@ -1769,9 +1813,9 @@ I only, I only, I only got eyes for you
 (I only, I only, I only got eyes for you)
 
 Item 35:
+Mood: Negative
 Name: Miss You
 Artist: Oliver Tree & Robin Schulz
-mood: negative
 Lyrics:
 Don't remind me
 I'm mindin' my own damn business
@@ -1826,9 +1870,9 @@ When you're angry, you're a jerk
 And then you treat me like I'm worth nothin'
 
 Item 36:
+Mood: Negative
 Name: Love Yourself
 Artist: Justin Bieber
-mood: neutral
 Lyrics:
 For all the times that you rained on my parade
 And all the clubs you get in using my name
@@ -1882,9 +1926,9 @@ And if you think that I'm still holdin' on to somethin'
 You should go and love yourself
 
 Item 37:
+Mood: Negative
 Name: Crystal Ball
 Artist: Keane
-mood: negative
 Lyrics:
 Who is the man I see
 Where I'm supposed to be?
@@ -1923,9 +1967,9 @@ Everything I know is wrong
 So put me where I belong
 
 Item 38:
+Mood: Neutral
 Name: Under the Influence
 Artist: Chris Brown
-mood: positive
 Lyrics:
 Kido, Kido
 K-K-Kido on the beat, better run it back
