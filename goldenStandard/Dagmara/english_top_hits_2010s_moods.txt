@@ -1,0 +1,339 @@
+# songs
+
+1.
+{
+ "name": "TiK ToK",
+ "artists": [
+  "Kesha"
+]
+},
+
+mood: positive
+
+2.
+
+{
+"name": "All Time Low",
+"artists": [
+"Jon Bellion"
+]
+}
+
+mood: negative
+
+3.
+
+{
+"name": "Won't Go Home Without You",
+"artists": [
+"Maroon 5"
+]
+}
+
+mood: negative
+
+4.
+
+{
+"name": "Older",
+"artists": [
+"Sasha Alex Sloan"
+]
+}
+
+mood: neutral
+
+5.
+
+{
+"name": "Somebody That I Used To Know",
+"artists": [
+"Gotye",
+"Kimbra"
+]
+},
+
+mood: negative
+
+6.
+
+{
+"name": "Classic",
+"artists": [
+"MKTO"
+]
+},
+
+mood: positive
+
+7.
+
+{
+"name": "Stay Awake",
+"artists": [
+"Dean Lewis"
+]
+},
+
+mood: negative
+
+8.
+
+{
+"name": "Heroes (we could be)",
+"artists": [
+"Alesso",
+"Tove Lo"
+]
+},
+
+mood: positive
+
+9.
+
+{
+"name": "Fireflies",
+"artists": [
+"Owl City"
+]
+},
+
+mood: neutral
+
+10.
+
+{
+"name": "Orange Trees",
+"artists": [
+"MARINA"
+]
+},
+
+mood: positive
+
+11.
+
+{
+"name": "No Money",
+"artists": [
+"Galantis"
+]
+},
+
+mood: neutral
+
+12.
+
+{
+"name": "Never Forget You",
+"artists": [
+"Zara Larsson",
+"MNEK"
+]
+},
+
+mood: negative
+
+13.
+
+{
+"name": "Woman Like Me (feat. Nicki Minaj)",
+"artists": [
+"Little Mix",
+"Nicki Minaj"
+]
+},
+
+mood: neutral
+
+14.
+
+{
+"name": "Titanium (feat. Sia)",
+"artists": [
+"David Guetta",
+"Sia"
+]
+},
+
+mood: positive
+
+15.
+
+{
+"name": "Sugar",
+"artists": [
+"Maroon 5"
+]
+},
+
+mood: negative
+
+16.
+
+{
+"name": "Stressed Out",
+"artists": [
+"Twenty One Pilots"
+]
+},
+
+mood: negative
+
+17.
+
+{
+"name": "22",
+"artists": [
+"Taylor Swift"
+]
+},
+
+mood: neutral
+
+18.
+
+{
+"name": "Diamonds",
+"artists": [
+"Rihanna"
+]
+},
+
+mood: positive
+
+19.
+
+{
+"name": "Insomnia",
+"artists": [
+"Daya"
+]
+},
+
+mood: negative
+
+20.
+
+{
+"name": "Applause",
+"artists": [
+"Lady Gaga"
+]
+},
+
+mood: neutral
+
+1. 
+
+{
+"name": "Blurred Lines",
+"artists": [
+"Robin Thicke",
+"T.I.",
+"Pharrell Williams"
+]
+},
+
+mood: positive
+
+22.
+
+{
+"name": "Disturbia",
+"artists": [
+"Rihanna"
+]
+},
+
+mood: negative
+
+23.
+
+{
+"name": "Dark Horse",
+"artists": [
+"Katy Perry",
+"Juicy J"
+]
+},
+
+mood: neutral
+
+24.
+
+{
+"name": "When I Was Your Man",
+"artists": [
+"Bruno Mars"
+]
+},
+
+mood: negative
+
+25.
+
+{
+"name": "Chasing The Sun",
+"artists": [
+"The Wanted"
+]
+},
+
+mood: positive
+
+26.
+
+{
+"name": "Personal",
+"artists": [
+"The Vamps",
+"Maggie Lindemann"
+]
+},
+
+mood: negative
+
+27.
+
+{
+"name": "Lost Boy",
+"artists": [
+"Ruth B."
+]
+},
+
+mood: neutral
+
+28.
+
+{
+"name": "Stop And Stare",
+"artists": [
+"OneRepublic"
+]
+},
+
+mood: negative
+
+29.
+
+{
+"name": "Galway Girl",
+"artists": [
+"Ed Sheeran"
+]
+},
+
+mood: neutral
+
+30.
+
+{
+"name": "Feel It Still",
+"artists": [
+"Portugal. The Man"
+]
+}
+
+mood: neutral
