@@ -34,7 +34,7 @@ def words(song: dict) -> list[str]:
 
 
 def remove_stopwords(words: list) -> list:
-    with open("polish.stopwords.txt", "r") as f:
+    with open("english.stopwords.txt", "r") as f:
         stopwords = f.read().splitlines()
         return [w for w in words if w not in stopwords]
 
@@ -109,14 +109,14 @@ def print_counter(counter: dict) -> None:
         print(f"{word: <15}: {count}")
 
 
-if __name__ == "__main__":
-    """
-    Main script:
-    Put path to the file containing song lyrics into playlist_counter() function
-    To save output use piping in terminal:
-    python3 vocabulary.py > output.txt
-    """
-    c = playlist_counter("../Genius/songs3.json")
-    s = sorted_counter(c, 6)
-    a = alphabetical_counter(s)
-    print_counter(a)
+# if __name__ == "__main__":
+#     """
+#     Main script:
+#     Put path to the file containing song lyrics into playlist_counter() function
+#     To save output use piping in terminal:
+#     python3 vocabulary.py > output.txt
+#     """
+#     c = playlist_counter("../Genius/songs3.json")
+#     s = sorted_counter(c, 6)
+#     a = alphabetical_counter(s)
+#     print_counter(a)
