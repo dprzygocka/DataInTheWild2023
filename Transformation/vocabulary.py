@@ -33,13 +33,23 @@ def words(song: dict) -> list[str]:
     return words
 
 
-def remove_stopwords(words: list) -> list:
-    with open("english.stopwords.txt", "r") as f:
-        stopwords = f.read().splitlines()
-        return [w for w in words if w not in stopwords]
+def stopwords(language: str = "english") -> list[str]:
+    """
+    Returns a list of stopwords, language = english | polish
+    """
+    with open(f"{language}.stopwords.txt", "r") as f:
+        return f.read().splitlines()
 
 
-def counter(words: list) -> dict[str, int]:
+def remove_stopwords(words: list[str]) -> list[str]:
+    """
+    Returns a list of words without stopwords
+    """
+    stop = stopwords()
+    return [w for w in words if w not in stop]
+
+
+def counter(words: list[str]) -> dict[str, int]:
     """
     Returns word count dictionary
     """
@@ -52,7 +62,7 @@ def counter(words: list) -> dict[str, int]:
     return word_count
 
 
-def add_counters(counter1: dict, counter2: dict) -> dict[str, int]:
+def add_counters(counter1: dict[str, int], counter2: dict[str, int]) -> dict[str, int]:
     """
     Returs a result of adding two word count dictionaries
     """
@@ -84,7 +94,7 @@ def playlist_counter(path) -> dict[str, int]:
     return word_count
 
 
-def sorted_counter(counter: dict, threshold: int = 0) -> dict:
+def sorted_counter(counter: dict[str, int], threshold: int = 0) -> dict[str, int]:
     """
     Return counter sorted by word frequencies, do not include rare words under threshold
     """
@@ -93,7 +103,7 @@ def sorted_counter(counter: dict, threshold: int = 0) -> dict:
     return f
 
 
-def alphabetical_counter(counter: dict) -> dict:
+def alphabetical_counter(counter: dict[str, int]) -> dict[str, int]:
     """
     Return counter sorted by word's alphabetical order
     """
@@ -107,16 +117,3 @@ def print_counter(counter: dict) -> None:
     """
     for word, count in counter.items():
         print(f"{word: <15}: {count}")
-
-
-# if __name__ == "__main__":
-#     """
-#     Main script:
-#     Put path to the file containing song lyrics into playlist_counter() function
-#     To save output use piping in terminal:
-#     python3 vocabulary.py > output.txt
-#     """
-#     c = playlist_counter("../Genius/songs3.json")
-#     s = sorted_counter(c, 6)
-#     a = alphabetical_counter(s)
-#     print_counter(a)
